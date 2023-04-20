@@ -1,0 +1,6 @@
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\bin\Demo.dll.config
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\bin\Demo.dll
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\bin\Demo.pdb
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\obj\Debug\Demo.dll
+F:\Google Drive\GitHub\Portfolio\Demo\Demo\obj\Debug\Demo.pdb

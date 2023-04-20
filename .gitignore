@@ -1,0 +1,6 @@
+Portfolio/Web.config
+Publish/Web.config
+Portfolio/obj/Release/TransformWebConfig/assist/Web.config
+Portfolio/obj/Release/TransformWebConfig/original/Web.config
+Portfolio/obj/Release/TransformWebConfig/transformed/Web.config
+Portfolio/obj/Release/Package/PackageTmp/Web.config

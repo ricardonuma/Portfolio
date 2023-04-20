@@ -1,0 +1,180 @@
+﻿.page {
+    padding-top: 40px;
+    margin: 0;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+.bg-about {
+    height: 100vh;
+    margin: 0;
+}
+
+.bg-projects {
+    height: 175vh;
+    margin: 0;
+}
+
+.bg-contact {
+    height: 78vh;
+    margin: 0;
+}
+
+.anchor {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: black;
+}
+
+.title {
+    font-size: 18pt;
+    font-family: Arial;
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 30px;
+}
+
+.margin-left-right {
+    background-color: #f1f1f1;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.about-td-image {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.about-td-text {
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.about-image {
+    border-radius: 5%;
+    display: block;
+    width: 230px;
+}
+
+.about-image-text {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.about-text {
+    color: gray;
+    font-family: 'Century Schoolbook';
+    text-align: left;
+}
+
+.project-cell {
+    padding: 0px 20px 0px 20px;
+    width: 33%;
+}
+
+.project-image {
+    width: 300px;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .project-image {
+    opacity: 0.05;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 32px;
+}
+
+.table-projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -30px;
+}
+
+.contact-table {
+    margin: auto;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.contact-image {
+    width: 30px;
+}
+
+.contact-td {
+    padding-left: 10px;
+}
+
+.contact-text {
+    font-size: 12pt;
+    font-family: Century Schoolbook;
+    text-align: center;
+    color: gray;
+    height: 45px;
+    vertical-align: top;
+}
+
+.footer {
+    font-size: 12pt;
+    font-family: Century Schoolbook;
+    background-color: #333333;
+    color: white;
+    padding-top: 30px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}

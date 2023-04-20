@@ -1,0 +1,83 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.master {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+@supports(position:sticky) {
+    .master {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+}
+
+.master-table-external {
+    width: 100%;
+}
+
+.master-div-name {
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(20%);
+    margin-left: 25px;
+    width: auto;
+}
+
+.master-div-table {
+    width: 50%;
+}
+
+.master-div {
+    width: 25%;
+}
+
+.master-feature {
+    font-size: 25pt;
+    font-family: 'Century Schoolbook';
+    font-weight: bold;
+    color: #333333;
+}
+
+.master-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 25%;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-family: Arial;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .button:active {
+        background-color: white;
+        color: black;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }

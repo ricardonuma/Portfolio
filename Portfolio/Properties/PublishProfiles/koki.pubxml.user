@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://waws-prod-sn1-035.ftp.azurewebsites.windows.net/site/wwwroot/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Arks.aspx">
+      <publishTime>08/09/2018 00:34:25</publishTime>
+    </File>
+    <File Include="bin/Demo.dll">
+      <publishTime>08/07/2018 23:29:27</publishTime>
+    </File>
+    <File Include="bin/Portfolio.dll">
+      <publishTime>08/29/2018 23:23:23</publishTime>
+    </File>
+    <File Include="bin/Valemobi.dll">
+      <publishTime>08/07/2018 23:16:43</publishTime>
+    </File>
+    <File Include="CSS/default.css">
+      <publishTime>08/18/2018 02:18:26</publishTime>
+    </File>
+    <File Include="CSS/estilo.css">
+      <publishTime>08/12/2018 01:06:07</publishTime>
+    </File>
+    <File Include="CSS/master.css">
+      <publishTime>08/18/2018 02:18:29</publishTime>
+    </File>
+    <File Include="CSS/page.css">
+      <publishTime>08/29/2018 22:44:14</publishTime>
+    </File>
+    <File Include="CSS/StyleSheet.css">
+      <publishTime>08/07/2018 23:38:12</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/29/2018 23:21:31</publishTime>
+    </File>
+    <File Include="Demo.aspx">
+      <publishTime>08/09/2018 00:36:42</publishTime>
+    </File>
+    <File Include="DemoList.aspx">
+      <publishTime>08/09/2018 00:34:01</publishTime>
+    </File>
+    <File Include="DemoNew.aspx">
+      <publishTime>08/09/2018 00:33:53</publishTime>
+    </File>
+    <File Include="Icms.aspx">
+      <publishTime>08/12/2018 01:08:33</publishTime>
+    </File>
+    <File Include="img/about.jpg">
+      <publishTime>08/29/2018 21:46:13</publishTime>
+    </File>
+    <File Include="img/arks.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/01.png">
+      <publishTime>08/09/2018 00:08:39</publishTime>
+    </File>
+    <File Include="img/arks/02.png">
+      <publishTime>08/09/2018 00:08:39</publishTime>
+    </File>
+    <File Include="img/arks/03.png">
+      <publishTime>08/09/2018 00:08:40</publishTime>
+    </File>
+    <File Include="img/arks/04.png">
+      <publishTime>08/09/2018 00:08:40</publishTime>
+    </File>
+    <File Include="img/arks/05.png">
+      <publishTime>08/09/2018 00:08:41</publishTime>
+    </File>
+    <File Include="img/arks/06.png">
+      <publishTime>08/09/2018 00:08:41</publishTime>
+    </File>
+    <File Include="img/arks/07.png">
+      <publishTime>08/09/2018 00:08:41</publishTime>
+    </File>
+    <File Include="img/arks/08.png">
+      <publishTime>08/09/2018 00:08:42</publishTime>
+    </File>
+    <File Include="img/arks/09.png">
+      <publishTime>08/09/2018 00:08:42</publishTime>
+    </File>
+    <File Include="img/arks/10.png">
+      <publishTime>08/09/2018 00:08:42</publishTime>
+    </File>
+    <File Include="img/arks/11.png">
+      <publishTime>08/09/2018 00:08:43</publishTime>
+    </File>
+    <File Include="img/arks/12.png">
+      <publishTime>08/09/2018 00:08:43</publishTime>
+    </File>
+    <File Include="img/arks/13.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/14.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/15.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/16.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/17.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/arks/18.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/demo.jpg">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/fundo-rodape.jpg">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/fundo-rodape2.jpg">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/fundo-topo.jpg">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/fundo.jpg">
+      <publishTime>08/09/2018 20:17:11</publishTime>
+    </File>
+    <File Include="img/github.png">
+      <publishTime>08/12/2018 13:39:33</publishTime>
+    </File>
+    <File Include="img/github2.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/googleplay.png">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/icms.ico">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/icms.jpg">
+      <publishTime>08/09/2018 00:08:44</publishTime>
+    </File>
+    <File Include="img/linkedin.png">
+      <publishTime>08/12/2018 13:39:33</publishTime>
+    </File>
+    <File Include="img/mail.png">
+      <publishTime>08/12/2018 13:39:33</publishTime>
+    </File>
+    <File Include="img/projects/arks.png">
+      <publishTime>08/11/2018 22:45:49</publishTime>
+    </File>
+    <File Include="img/projects/ceb.png">
+      <publishTime>08/11/2018 21:36:22</publishTime>
+    </File>
+    <File Include="img/projects/ceb2.png">
+      <publishTime>08/11/2018 21:52:45</publishTime>
+    </File>
+    <File Include="img/projects/condor.png">
+      <publishTime>08/11/2018 22:23:05</publishTime>
+    </File>
+    <File Include="img/projects/condor2.png">
+      <publishTime>08/11/2018 21:39:12</publishTime>
+    </File>
+    <File Include="img/projects/eld.png">
+      <publishTime>08/11/2018 21:58:02</publishTime>
+    </File>
+    <File Include="img/projects/eld2.png">
+      <publishTime>08/11/2018 21:57:17</publishTime>
+    </File>
+    <File Include="img/projects/icms.png">
+      <publishTime>08/17/2018 22:19:37</publishTime>
+    </File>
+    <File Include="img/projects/izio.png">
+      <publishTime>08/11/2018 22:33:49</publishTime>
+    </File>
+    <File Include="img/projects/izio2.png">
+      <publishTime>08/11/2018 21:39:58</publishTime>
+    </File>
+    <File Include="img/projects/pernambucanas.png">
+      <publishTime>08/11/2018 22:01:06</publishTime>
+    </File>
+    <File Include="img/projects/pernambucanas2.png">
+      <publishTime>08/11/2018 21:53:40</publishTime>
+    </File>
+    <File Include="img/projects/petcare.png">
+      <publishTime>08/11/2018 22:27:57</publishTime>
+    </File>
+    <File Include="img/projects/petcare2.png">
+      <publishTime>08/11/2018 22:23:05</publishTime>
+    </File>
+    <File Include="img/projects/petcare3.png">
+      <publishTime>08/11/2018 21:43:56</publishTime>
+    </File>
+    <File Include="img/projects/risque.png">
+      <publishTime>08/11/2018 21:45:36</publishTime>
+    </File>
+    <File Include="img/projects/shyre.png">
+      <publishTime>08/11/2018 21:47:06</publishTime>
+    </File>
+    <File Include="img/projects/shyre2.png">
+      <publishTime>08/11/2018 21:47:42</publishTime>
+    </File>
+    <File Include="img/projects/trr.png">
+      <publishTime>08/11/2018 21:48:51</publishTime>
+    </File>
+    <File Include="img/projects/trr2.png">
+      <publishTime>08/11/2018 21:50:31</publishTime>
+    </File>
+    <File Include="JavaScript/JavaScript.js">
+      <publishTime>07/08/2018 23:46:00</publishTime>
+    </File>
+    <File Include="New.aspx">
+      <publishTime>08/07/2018 23:25:55</publishTime>
+    </File>
+    <File Include="novo.aspx">
+      <publishTime>05/20/2016 17:18:00</publishTime>
+    </File>
+    <File Include="Portfolio.aspx">
+      <publishTime>08/09/2018 00:33:26</publishTime>
+    </File>
+    <File Include="Portfolio.Master">
+      <publishTime>08/14/2018 02:11:31</publishTime>
+    </File>
+    <File Include="Portifolio.aspx">
+      <publishTime>08/14/2018 02:12:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/13/2018 22:25:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

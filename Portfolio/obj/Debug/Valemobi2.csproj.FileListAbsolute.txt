@@ -1,0 +1,6 @@
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\bin\Valemobi2.dll.config
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\bin\Valemobi2.dll
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\bin\Valemobi2.pdb
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\obj\Debug\Valemobi2.csprojResolveAssemblyReference.cache
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\obj\Debug\Valemobi2.dll
+D:\Google Drive\Profissional\Valemobi\Valemobi2\Valemobi2\obj\Debug\Valemobi2.pdb

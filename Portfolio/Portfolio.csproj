@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D3AD95F-C388-48DB-94FB-1D14ECBC38D5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Portfolio</RootNamespace>
+    <AssemblyName>Portfolio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\default.css" />
+    <Content Include="CSS\master.css" />
+    <Content Include="CSS\page.css" />
+    <Content Include="Icms.aspx" />
+    <Content Include="img\about.jpg" />
+    <Content Include="img\github.png" />
+    <Content Include="img\linkedin.png" />
+    <Content Include="img\mail.png" />
+    <None Include="Properties\PublishProfiles\koki.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arks.aspx" />
+    <Content Include="img\arks.png" />
+    <Content Include="img\arks\01.png" />
+    <Content Include="img\arks\02.png" />
+    <Content Include="img\arks\03.png" />
+    <Content Include="img\arks\04.png" />
+    <Content Include="img\arks\05.png" />
+    <Content Include="img\arks\06.png" />
+    <Content Include="img\arks\07.png" />
+    <Content Include="img\arks\08.png" />
+    <Content Include="img\arks\09.png" />
+    <Content Include="img\arks\10.png" />
+    <Content Include="img\arks\11.png" />
+    <Content Include="img\arks\12.png" />
+    <Content Include="img\arks\13.png" />
+    <Content Include="img\arks\14.png" />
+    <Content Include="img\arks\15.png" />
+    <Content Include="img\arks\16.png" />
+    <Content Include="img\arks\17.png" />
+    <Content Include="img\arks\18.png" />
+    <Content Include="img\fundo.jpg" />
+    <Content Include="img\github2.png" />
+    <Content Include="img\googleplay.png" />
+    <Content Include="img\icms.jpg" />
+    <Content Include="Default.aspx" />
+    <Content Include="img\projects\arks.png" />
+    <Content Include="img\projects\condor.png" />
+    <Content Include="img\projects\eld2.png" />
+    <Content Include="img\projects\eld.png" />
+    <Content Include="img\projects\ceb.png" />
+    <Content Include="img\projects\condor2.png" />
+    <Content Include="img\projects\ceb2.png" />
+    <Content Include="img\projects\icms.png" />
+    <Content Include="img\projects\izio.png" />
+    <Content Include="img\projects\pernambucanas.png" />
+    <Content Include="img\projects\pernambucanas2.png" />
+    <Content Include="img\projects\petcare.png" />
+    <Content Include="img\projects\petcare2.png" />
+    <Content Include="img\projects\trr2.png" />
+    <Content Include="img\projects\trr.png" />
+    <Content Include="img\projects\shyre2.png" />
+    <Content Include="img\projects\shyre.png" />
+    <Content Include="img\projects\risque.png" />
+    <Content Include="img\projects\petcare3.png" />
+    <Content Include="img\projects\izio2.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arks.aspx.cs">
+      <DependentUpon>Arks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arks.aspx.designer.cs">
+      <DependentUpon>Arks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Connection.cs" />
+    <Compile Include="Classes\Data.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Icms.aspx.cs">
+      <DependentUpon>Icms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Icms.aspx.designer.cs">
+      <DependentUpon>Icms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5838</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5838/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

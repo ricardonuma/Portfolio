@@ -1,0 +1,35 @@
+﻿.bg-home {
+    background: url(/img/fundo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-home {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Century Schoolbook';
+    text-align: center;
+}
+
+.hello-world {
+    font-size: 14pt;
+}
+
+.name {
+    font-size: 14pt;
+}
+
+.feature {
+    font-size: 30pt;
+    font-family: 'Century Schoolbook';
+    font-weight: bold;
+}
+
+.home-text {
+    font-size: 14pt;
+    font-family: 'Century Schoolbook';
+    margin-top: 0;
+    padding-top: 12%;
+}
