@@ -9,3 +9,4 @@ C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.pdb
 C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio.csprojResolveAssemblyReference.cache
 C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio.dll
 C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio.pdb
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Debug/Portfolio.csproj.CoreCompileInputs.cache

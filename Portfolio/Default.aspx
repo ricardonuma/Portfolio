@@ -106,21 +106,12 @@
 
             <table>
                 <tr>
-                    <td class="about-td-image">
-                        <img class="about-image" src="img/about.jpg" />
-
-                        <p class="about-text about-image-text">
-                            Me and Melissa, my every moment partner!
-                        </p>
-
-                    </td>
-                    <td class="about-td-text">
                         <p class="about-text">
                             Hi, my name is Ricardo Numa, <span id="age">31</span> years old. I have been working as Software Developer for 
                             <span id="software">6</span> years, <span id="android">3</span> of them as Android Developer. 
                             I graduated in Business and after some time working I realized I didn't feel realized with that.
                         </p>
-
+                
                         <p class="about-text">
                             After a few years, I decided to look for other options and after a lot of research, 
                             I ended up finding myself in the IT world, more specifically programming. 
@@ -129,6 +120,18 @@
                             to show my friends or customizing game maps to look the way I wanted them to be. 
                             Back then I'd never imagined that it was possible to earn money with that or even have it as a career.
                         </p>
+                </tr>
+                <tr>
+                    <td class="about-td-image">
+                        <img class="about-image" src="img/about.jpg" />
+
+                        <p class="about-text about-image-text">
+                            Me and Melissa, my every moment partner!
+                        </p>
+
+                    </td>
+
+                    <td class="about-td-text">
 
                         <p class="about-text">
                             In 2012 I started studying on my own using internet tutorials, videos, articles, books and some online courses. 
@@ -407,6 +410,21 @@
                         </div>
                     </a></td>
                 </tr>
+                <tr>
+                    <td class="project-cell"><a href="https://koki20.itch.io/dodgebox" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/box.png" alt="UnityDodgeBox" />
+                            <div class="middle">
+                                <div class="text">
+                                    DodgeBox
+                                    <br />
+                                    <br />
+                                    Game developed using Unity and C#.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                </tr>
             </table>
 
         </div>
@@ -570,11 +588,10 @@
             <table class="contact-table">
                 <tr>
                     <td>
-                        <a href="https://github.com/brrraulian" target="#">
-                            <img src="img/github.png" class="contact-image" /></a>
+                        <img src="img/mail.png" class="contact-image" />
                     </td>
                     <td class="contact-td">
-                        <span class="contact-text">https://github.com/brrraulian</span>
+                        <span class="contact-text">koki_numa@hotmail.com</span>
                     </td>
                 </tr>
                 <tr>
@@ -588,10 +605,11 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="img/mail.png" class="contact-image" />
+                        <a href="https://github.com/ricardonuma?tab=repositories" target="#">
+                            <img src="img/github.png" class="contact-image" /></a>
                     </td>
                     <td class="contact-td">
-                        <span class="contact-text">koki_numa@hotmail.com</span>
+                        <span class="contact-text">https://github.com/ricardonuma</span>
                     </td>
                 </tr>
             </table>

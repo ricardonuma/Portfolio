@@ -1,10 +1,15 @@
-F:\Google Drive\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.dll.config
-F:\Google Drive\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.dll
-F:\Google Drive\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.pdb
-F:\Google Drive\GitHub\Portfolio\Portfolio\Portfolio\obj\Release\Portfolio.dll
-F:\Google Drive\GitHub\Portfolio\Portfolio\Portfolio\obj\Release\Portfolio.pdb
-C:\Users\koki\Downloads\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.dll.config
-C:\Users\koki\Downloads\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.dll
-C:\Users\koki\Downloads\GitHub\Portfolio\Portfolio\Portfolio\bin\Portfolio.pdb
-C:\Users\koki\Downloads\GitHub\Portfolio\Portfolio\Portfolio\obj\Release\Portfolio.dll
-C:\Users\koki\Downloads\GitHub\Portfolio\Portfolio\Portfolio\obj\Release\Portfolio.pdb
+F:/Google Drive/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.dll.config
+F:/Google Drive/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.dll
+F:/Google Drive/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.pdb
+F:/Google Drive/GitHub/Portfolio/Portfolio/Portfolio/obj/Release/Portfolio.dll
+F:/Google Drive/GitHub/Portfolio/Portfolio/Portfolio/obj/Release/Portfolio.pdb
+C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.dll.config
+C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.dll
+C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/bin/Portfolio.pdb
+C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Release/Portfolio.dll
+C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Release/Portfolio.pdb
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.csproj.CoreCompileInputs.cache
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/bin/Portfolio.dll
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/bin/Portfolio.pdb
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.dll
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.pdb

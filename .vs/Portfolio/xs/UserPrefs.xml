@@ -1,14 +1,18 @@
-﻿<Properties StartupConfiguration="{0D3AD95F-C388-48DB-94FB-1D14ECBC38D5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio/Web.config">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{0D3AD95F-C388-48DB-94FB-1D14ECBC38D5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio/CSS/page.css">
     <Files>
-      <File FileName="Portfolio/Web.config" Line="16" Column="17" />
+      <File FileName="Portfolio/Default.aspx" Line="413" Column="81" />
+      <File FileName="Portfolio/CSS/page.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Portfolio" expanded="True">
             <Node name="Portfolio" expanded="True">
-              <Node name="Web.config" selected="True" />
+              <Node name="CSS" expanded="True">
+                <Node name="page.css" selected="True" />
+              </Node>
+              <Node name="img" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -17,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
