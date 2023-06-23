@@ -67,6 +67,8 @@
     <Content Include="img\projects\box.png" />
     <Content Include="JavaScript\JavaScript.js" />
     <Content Include="img\about.jpg" />
+    <Content Include="img\projects\quiz2.png" />
+    <Content Include="img\projects\trafficsimulator.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\fundo.jpg" />

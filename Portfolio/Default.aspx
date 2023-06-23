@@ -411,7 +411,7 @@
                     </a></td>
                 </tr>
                 <tr>
-                    <td class="project-cell"><a href="https://koki20.itch.io/quiz" target="#">
+                    <td class="project-cell"><a href="https://koki20.itch.io/ecoquiz" target="#">
                         <div class="container">
                             <img class="project-image" src="img/projects/quiz.png" alt="EcoQuiz" />
                             <div class="middle">
@@ -419,7 +419,20 @@
                                     EcoQuiz
                                     <br />
                                     <br />
-                                    Game developed at university using Eclipse and Java.
+                                    Game developed at university using Java, Embedded Derby Database and Eclipse.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://koki20.itch.io/trafficsimulator" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/trafficsimulator.png" alt="EcoQuiz" />
+                            <div class="middle">
+                                <div class="text">
+                                    TrafficSimulator
+                                    <br />
+                                    <br />
+                                    Car navigation system simulator developed at university in order to compare different search algorithms using Java and Eclipse.
                                 </div>
                             </div>
                         </div>
@@ -437,7 +450,8 @@
                             </div>
                         </div>
                     </a></td>
-                    
+                </tr>
+                <tr>
                     <td class="project-cell"><a href="https://koki20.itch.io/dodgeball" target="#">
                         <div class="container">
                             <img class="project-image" src="img/projects/ball.png" alt="UnrealDodgeBall" />
