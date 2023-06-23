@@ -411,6 +411,19 @@
                     </a></td>
                 </tr>
                 <tr>
+                    <td class="project-cell"><a href="https://koki20.itch.io/quiz" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/quiz.png" alt="EcoQuiz" />
+                            <div class="middle">
+                                <div class="text">
+                                    EcoQuiz
+                                    <br />
+                                    <br />
+                                    Game developed at university using Eclipse and Java.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
                     <td class="project-cell"><a href="https://koki20.itch.io/dodgebox" target="#">
                         <div class="container">
                             <img class="project-image" src="img/projects/box.png" alt="UnityDodgeBox" />
@@ -420,6 +433,20 @@
                                     <br />
                                     <br />
                                     Game developed using Unity and C#.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    
+                    <td class="project-cell"><a href="https://koki20.itch.io/dodgeball" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/ball.png" alt="UnrealDodgeBall" />
+                            <div class="middle">
+                                <div class="text">
+                                    DodgeBall
+                                    <br />
+                                    <br />
+                                    Game developed using Unreal and C++.
                                 </div>
                             </div>
                         </div>
@@ -558,12 +585,58 @@
                     <td class="skills-td">
                         <span class="skills-text">Accessibility:</span>
                     </td>
+                    <td class="skills-td">
+                        <span class="skills-text">C#:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Unity:</span>
+                    </td>
                 </tr>
                 <tr>
                     <td class="fa-star-size skills-td">
                         <span class="fa fa-star checked"></span>
 			<span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+		<tr height="40px">
+		</tr>
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">C++:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Unreal Engine:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
 			<span class="fa fa-star"></span>
 			<span class="fa fa-star"></span>
                     </td>
