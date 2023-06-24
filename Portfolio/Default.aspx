@@ -437,6 +437,21 @@
                             </div>
                         </div>
                     </a></td>
+                    <td class="project-cell"><a href="https://koki20.itch.io/pong" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/pong.png" alt="Pong" />
+                            <div class="middle">
+                                <div class="text">
+                                    Pong
+                                    <br />
+                                    <br />
+                                    Game developed using C++.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                </tr>
+                <tr>
                     <td class="project-cell"><a href="https://koki20.itch.io/dodgebox" target="#">
                         <div class="container">
                             <img class="project-image" src="img/projects/box.png" alt="UnityDodgeBox" />
@@ -450,8 +465,6 @@
                             </div>
                         </div>
                     </a></td>
-                </tr>
-                <tr>
                     <td class="project-cell"><a href="https://koki20.itch.io/dodgeball" target="#">
                         <div class="container">
                             <img class="project-image" src="img/projects/ball.png" alt="UnrealDodgeBall" />
