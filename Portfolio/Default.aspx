@@ -19,6 +19,7 @@
 <body onload="loadFunctions()">
 
 
+    <!--
     <a href="#about" class="button-home">
 
         <div id="home" class="bg-home">
@@ -41,6 +42,7 @@
         </div>
 
     </a>
+-->
 
 
 
@@ -59,17 +61,17 @@
                         <tr>
                             <td>
                                 <div class="master-button">
-                                    <a class="button" href="#about">ABOUT ME</a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="master-button">
                                     <a class="button" href="#projects">PROJECTS</a>
                                 </div>
                             </td>
                             <td>
                                 <div class="master-button">
                                     <a class="button" href="#skills">SKILLS</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="master-button">
+                                    <a class="button" href="#about">ABOUT ME</a>
                                 </div>
                             </td>
                             <td>
@@ -94,20 +96,538 @@
 
 
 
-    <div class="margin-left-right">
+
+
+
+
+        <div id="projects"></div>
+<!--
+        <hr />
+-->
+        <div class="page bg-projects">
+
+
+            <h2 class="title">PROJECTS</h2>
+
+            <hr />
+
+            <h3 class="title">Games</h3>
+                                    <br />
+                                    <br />
+            <table class="table-projects">
+            <tr>
+                    <td class="project-cell"><a href="https://koki20.itch.io/dodgebox" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/box.png" alt="UnityDodgeBox" />
+                            <div class="middle">
+                                <div class="text">
+                                    DodgeBox
+                                    <br />
+                                    <br />
+                                    Game developed using Unity and C#.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://koki20.itch.io/dodgeball" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/ball.png" alt="UnrealDodgeBall" />
+                            <div class="middle">
+                                <div class="text">
+                                    DodgeBall
+                                    <br />
+                                    <br />
+                                    Game developed using Unreal, Blueprint and C++.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://koki20.itch.io/pong" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/pong.png" alt="Pong" />
+                            <div class="middle">
+                                <div class="text">
+                                    Pong
+                                    <br />
+                                    <br />
+                                    Game developed using C++.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                </tr>
+                <tr>
+                    <td class="project-cell"><a href="https://koki20.itch.io/trafficsimulator" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/trafficsimulator.png" alt="EcoQuiz" />
+                            <div class="middle">
+                                <div class="text">
+                                    TrafficSimulator
+                                    <br />
+                                    <br />
+                                    Car navigation system simulator developed at university in order to compare different search algorithms using Java and Eclipse.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://koki20.itch.io/ecoquiz" target="#">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/quiz.png" alt="EcoQuiz" />
+                            <div class="middle">
+                                <div class="text">
+                                    EcoQuiz
+                                    <br />
+                                    <br />
+                                    Game developed at university using Java, Embedded Derby Database and Eclipse.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+
+                </tr>
+            </table>
+                                    <br />
+                                    <br />
+
+            <h3 class="title">Android Apps</h3>
+                                    <br />
+                                    <br />
+            <table class="table-projects">
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.formathletica.formandroid&hl=en_CA&gl=US" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/DH5JkoVV2hUvQfXdbxITSOe2NrLQBl8EJ-pY3DNG80ogJn_42lO_zmWy35O-nkq5yTE=w480-h960-rw" alt="FORM Swim" />
+                            <div class="middle">
+                                <div class="text">
+                                    FORM Swim
+                                    <br />
+                                    <br />
+                                    FORM Smart Swim Goggles app.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.silverfernfarms.calf.booking" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/pmVwc7njNcZEjquCHYel-dVKPQIbCWucRogA2LW_5REJKzAyLIdchTIN49WAcn27Qs4=w480-h960-rw" alt="Silver Fern Farms Calf Booking" />
+                            <div class="middle">
+                                <div class="text">
+                                    Silver Fern Farms Calf Booking
+                                    <br />
+                                    <br />
+                                    Calf pickup booking Android app.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=nz.co.southerncross.MySouthernCross" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/yju3DgyspU-scAGOOfTTV8gk8q6b1jRNtjJXE5v4u-7MG0Wjr4N56s4WvWYedMwdTsU=s360-rw" alt="My Southern Cross" />
+                            <div class="middle">
+                                <div class="text">
+                                    My Southern Cross
+                                    <br />
+                                    <br />
+                                    Health Insurance management Android app.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                </tr>
+                <tr>
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.itau" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/CyP_f9VxfdTyixcWO_-2IW5cJ1M8adkqRrY9Wo_CkH0Ixj12qdg1SJHpuye-9n_YYqM=w480-h960-rw" alt="Banco Ita&#250;" />
+                            <div class="middle">
+                                <div class="text">
+                                    Banco Ita&#250;
+                                    <br />
+                                    <br />
+                                    Bank account management Android app.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.trrsecuritas.segurados" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/JV_ZzEXaxnkTcy8-4q-VzowEvLdsWsw2KKxnq49c-fxXw_bKU53yD27SxP6ZX5QoGQ=w480-h960-rw" alt="TRR" />
+                            <div class="middle">
+                                <div class="text">
+                                    TRR
+                                    <br />
+                                    <br />
+                                    Android app for health plan management, feeds, request and refunds follow-up, accredited network consultation and concierge.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+<!--
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/shyre.png" alt="Shyre" />
+                            <div class="middle">
+                                <div class="text">
+                                    Shyre
+                                    <br />
+                                    <br />
+                                    Android app for routing planning and control, calendar and reports to field teams.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/risque.png" alt="Risqué" />
+                            <div class="middle">
+                                <div class="text">
+                                    Risqué
+                                    <br />
+                                    <br />
+                                    Android app with color enamel simulator.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/petcare.png" alt="Bulário Pet Care" />
+                            <div class="middle">
+                                <div class="text">
+                                    Bulário Pet Care
+                                    <br />
+                                    <br />
+                                    Android app for dogs and cats medicine bulletin, check list and feed calculator.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/pernambucanas2.png" alt="Auto Atendimento Pernambucanas" />
+                            <div class="middle">
+                                <div class="text">
+                                    Proposta Pernambucanas
+                                    <br />
+                                    <br />
+                                    Android tablet app used by the retailer network cards and insurance plans sellers.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/pernambucanas.png" alt="Izio" />
+                            <div class="middle">
+                                <div class="text">
+                                    Auto Atendimento Pernambucanas
+                                    <br />
+                                    <br />
+                                    Android app installed at the retailer network self-service terminals for payments.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.stoneridge.eld" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/KJnQPHG96boZkUaUaTuJKZCmaNKc1MB1IOs0PB1ntZ7fDSgSBpRFg7sCYDGcpbCHrfE=s360-rw" alt="Stoneridge EZ-ELD" />
+                            <div class="middle">
+                                <div class="text">
+                                    EZ-ELD Driver App
+                                    <br />
+                                    <br />
+                                    Android app used for truck drivers activities tracking done by an EZ-ELD device via Bluetooth, that creates logs that can be used in road side inspections on USA and Canada. 
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+-->
+                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=br.com.izio.condor" target="#">
+                        <div class="container">
+                            <img class="project-image android-image" src="https://play-lh.googleusercontent.com/dUNoGd0caRSTLu6aqBlWXc5pOA1wynHAqOpFNbDNnanID_ZIAngvzfxyeqzgWdpfGg=s360-rw" alt="Clube Condor" />
+                            <div class="middle">
+                                <div class="text">
+                                    Clube Condor
+                                    <br />
+                                    <br />
+                                    Android app for purchase consultation, credits balance and receiving offers.
+                                </div>
+                            </div>
+                        </div>
+                    </a></td>
+<!--
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image android-image" src="img/projects/ceb.png" alt="Cenoura & Bronze" />
+                            <div class="middle">
+                                <div class="text">
+                                    Cenoura & Bronze
+                                    <br />
+                                    <br />
+                                    Android app that enables the use of camera with filters, frames and sharing for social networks, radio, weather, feeds and sunscreen suggestion.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+-->
+                </tr>
+                <tr>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/arks.png" alt="Arks Capture" />
+                            <div class="middle">
+                                <div class="text">
+                                    Arks Capture
+                                    <br />
+                                    <br />
+                                    Android app for photos upload from device's gallery or taken by the app itself, to the Arks system (corporate cloud file management platform).
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <h3 class="title">Desktop Aplications</h3>
+            <table class="table-projects">
+                <tr>
+                    <td class="project-cell">
+                    </td>
+                    <td class="project-cell">
+                        <div class="container">
+                            <img class="project-image" src="img/projects/icms.png" alt="ICMS" />
+                            <div class="middle">
+                                <div class="text">
+                                    ICMS
+                                    <br />
+                                    <br />
+                                    Web and desktop system made for text file generation, that is necessary for the ICMS credit request before the Internal Revenue Service.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="project-cell">
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <div id="skills"></div>
+
+        <hr />
+
+
+
+
+
+
+        <div class="bg-skills">
+
+
+            <h2 class="title">SKILLS</h2>
+
+            <hr />
+
+        <div class="margin-left-right">
+            <table class="skills-table">
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">C#:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Unity:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">C++:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+		<tr height="40px">
+		</tr>
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">Unreal Engine:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Android:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Java:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+		<tr height="40px">
+		</tr>
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">Agile:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Git:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">RESTful:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+		<tr height="40px">
+		</tr>
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">Analytics:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Kotlin:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Architecture:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+		<tr height="40px">
+		</tr>
+                <tr>
+                    <td class="skills-td">
+                        <span class="skills-text">Test Automation:</span>
+                    </td>
+                    <td class="skills-td">
+                        <span class="skills-text">Accessibility:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                    <td class="fa-star-size skills-td">
+                        <span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star checked"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+
+
+
 
         <div id="about"></div>
 
-        <div class="page bg-about">
+        <hr />
+
+        <div class="bg-about">
 
             <h2 class="title">ABOUT ME</h2>
 
             <hr class="hr" />
 
+        <div class="margin-left-right">
+
             <table>
                 <tr>
                         <p class="about-text">
-                            Hi, my name is Ricardo Numa, <span id="age">31</span> years old. I have been working as Software Developer for 
+                            Hi, my name is Ricardo Numa<!--, <span id="age">31</span> years old-->. I have been working as Software Developer for 
                             <span id="software">6</span> years, <span id="android">3</span> of them as Android Developer. 
                             I graduated in Business and after some time working I realized I didn't feel realized with that.
                         </p>
@@ -188,503 +708,19 @@
 
         </div>
 
-        <div id="projects"></div>
-
-        <hr />
-
-
-
-
-
-
-        <div class="bg-projects">
-
-
-            <h2 class="title">PROJECTS</h2>
-
-            <hr />
-
-            <table class="table-projects">
-                <tr>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/arks.png" alt="Arks Capture" />
-                            <div class="middle">
-                                <div class="text">
-                                    Arks Capture
-                                    <br />
-                                    <br />
-                                    Android app for photos upload from device's gallery or taken by the app itself, to the Arks system (corporate cloud file management platform).
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/icms.png" alt="ICMS" />
-                            <div class="middle">
-                                <div class="text">
-                                    ICMS
-                                    <br />
-                                    <br />
-                                    Web and desktop system made for text file generation, that is necessary for the ICMS credit request before the Internal Revenue Service.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/ceb.png" alt="Cenoura & Bronze" />
-                            <div class="middle">
-                                <div class="text">
-                                    Cenoura & Bronze
-                                    <br />
-                                    <br />
-                                    Android app that enables the use of camera with filters, frames and sharing for social networks, radio, weather, feeds and sunscreen suggestion.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=br.com.izio.condor" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/dUNoGd0caRSTLu6aqBlWXc5pOA1wynHAqOpFNbDNnanID_ZIAngvzfxyeqzgWdpfGg=s360-rw" alt="Clube Condor" />
-                            <div class="middle">
-                                <div class="text">
-                                    Clube Condor
-                                    <br />
-                                    <br />
-                                    Android app for purchase consultation, credits balance and receiving offers.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.stoneridge.eld" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/KJnQPHG96boZkUaUaTuJKZCmaNKc1MB1IOs0PB1ntZ7fDSgSBpRFg7sCYDGcpbCHrfE=s360-rw" alt="Stoneridge EZ-ELD" />
-                            <div class="middle">
-                                <div class="text">
-                                    EZ-ELD Driver App
-                                    <br />
-                                    <br />
-                                    Android app used for truck drivers activities tracking done by an EZ-ELD device via Bluetooth, that creates logs that can be used in road side inspections on USA and Canada. 
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/pernambucanas.png" alt="Izio" />
-                            <div class="middle">
-                                <div class="text">
-                                    Auto Atendimento Pernambucanas
-                                    <br />
-                                    <br />
-                                    Android app installed at the retailer network self-service terminals for payments.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/pernambucanas2.png" alt="Auto Atendimento Pernambucanas" />
-                            <div class="middle">
-                                <div class="text">
-                                    Proposta Pernambucanas
-                                    <br />
-                                    <br />
-                                    Android tablet app used by the retailer network cards and insurance plans sellers.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/petcare.png" alt="Bulário Pet Care" />
-                            <div class="middle">
-                                <div class="text">
-                                    Bulário Pet Care
-                                    <br />
-                                    <br />
-                                    Android app for dogs and cats medicine bulletin, check list and feed calculator.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/risque.png" alt="Risqué" />
-                            <div class="middle">
-                                <div class="text">
-                                    Risqué
-                                    <br />
-                                    <br />
-                                    Android app with color enamel simulator.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="project-cell">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/shyre.png" alt="Shyre" />
-                            <div class="middle">
-                                <div class="text">
-                                    Shyre
-                                    <br />
-                                    <br />
-                                    Android app for routing planning and control, calendar and reports to field teams.
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.trrsecuritas.segurados" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/Hef1mpnnP726gI8JFzLxMLnopnjpWIQ2uY0Dn26nxvbxYr9ft5sb8qrDmQO0jkqHD_A=s360-rw" alt="TRR" />
-                            <div class="middle">
-                                <div class="text">
-                                    TRR
-                                    <br />
-                                    <br />
-                                    Android app for health plan management, feeds, request and refunds follow-up, accredited network consultation and concierge.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.itau" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/CyP_f9VxfdTyixcWO_-2IW5cJ1M8adkqRrY9Wo_CkH0Ixj12qdg1SJHpuye-9n_YYqM=s360-rw" alt="Banco Itaú" />
-                            <div class="middle">
-                                <div class="text">
-                                    Banco Itaú
-                                    <br />
-                                    <br />
-                                    Bank account management Android app.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                </tr>
-                <tr>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=nz.co.southerncross.MySouthernCross" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/yju3DgyspU-scAGOOfTTV8gk8q6b1jRNtjJXE5v4u-7MG0Wjr4N56s4WvWYedMwdTsU=s360-rw" alt="My Southern Cross" />
-                            <div class="middle">
-                                <div class="text">
-                                    My Southern Cross
-                                    <br />
-                                    <br />
-                                    Health Insurance management Android app.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.silverfernfarms.calf.booking" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/pmVwc7njNcZEjquCHYel-dVKPQIbCWucRogA2LW_5REJKzAyLIdchTIN49WAcn27Qs4=s360-rw" alt="Silver Fern Farms Calf Booking" />
-                            <div class="middle">
-                                <div class="text">
-                                    Silver Fern Farms Calf Booking
-                                    <br />
-                                    <br />
-                                    Calf pickup booking Android app.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://play.google.com/store/apps/details?id=com.formathletica.formandroid&hl=en_CA&gl=US" target="#">
-                        <div class="container">
-                            <img class="project-image" src="https://play-lh.googleusercontent.com/DH5JkoVV2hUvQfXdbxITSOe2NrLQBl8EJ-pY3DNG80ogJn_42lO_zmWy35O-nkq5yTE=w480-h960-rw" alt="FORM Swim" />
-                            <div class="middle">
-                                <div class="text">
-                                    FORM Swim
-                                    <br />
-                                    <br />
-                                    FORM Smart Swim Goggles app.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                </tr>
-                <tr>
-                    <td class="project-cell"><a href="https://koki20.itch.io/ecoquiz" target="#">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/quiz.png" alt="EcoQuiz" />
-                            <div class="middle">
-                                <div class="text">
-                                    EcoQuiz
-                                    <br />
-                                    <br />
-                                    Game developed at university using Java, Embedded Derby Database and Eclipse.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://koki20.itch.io/trafficsimulator" target="#">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/trafficsimulator.png" alt="EcoQuiz" />
-                            <div class="middle">
-                                <div class="text">
-                                    TrafficSimulator
-                                    <br />
-                                    <br />
-                                    Car navigation system simulator developed at university in order to compare different search algorithms using Java and Eclipse.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://koki20.itch.io/pong" target="#">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/pong.png" alt="Pong" />
-                            <div class="middle">
-                                <div class="text">
-                                    Pong
-                                    <br />
-                                    <br />
-                                    Game developed using C++.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                </tr>
-                <tr>
-                    <td class="project-cell"><a href="https://koki20.itch.io/dodgebox" target="#">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/box.png" alt="UnityDodgeBox" />
-                            <div class="middle">
-                                <div class="text">
-                                    DodgeBox
-                                    <br />
-                                    <br />
-                                    Game developed using Unity and C#.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                    <td class="project-cell"><a href="https://koki20.itch.io/dodgeball" target="#">
-                        <div class="container">
-                            <img class="project-image" src="img/projects/ball.png" alt="UnrealDodgeBall" />
-                            <div class="middle">
-                                <div class="text">
-                                    DodgeBall
-                                    <br />
-                                    <br />
-                                    Game developed using Unreal and C++.
-                                </div>
-                            </div>
-                        </div>
-                    </a></td>
-                </tr>
-            </table>
-
-        </div>
-
-        <div id="skills"></div>
-
-        <hr />
-
-
-
-
-
-
-        <div class="bg-skills">
-
-
-            <h2 class="title">SKILLS</h2>
-
-            <hr />
-
-            <table class="skills-table">
-                <tr>
-                    <td class="skills-td">
-                        <span class="skills-text">Android:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Java:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Agile:</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                </tr>
-		<tr height="40px">
-		</tr>
-                <tr>
-                    <td class="skills-td">
-                        <span class="skills-text">Git:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">RESTful:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Analytics:</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                </tr>
-		<tr height="40px">
-		</tr>
-                <tr>
-                    <td class="skills-td">
-                        <span class="skills-text">Kotlin:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Architecture:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Test Automation:</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                </tr>
-		<tr height="40px">
-		</tr>
-                <tr>
-                    <td class="skills-td">
-                        <span class="skills-text">Accessibility:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">C#:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Unity:</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                </tr>
-		<tr height="40px">
-		</tr>
-                <tr>
-                    <td class="skills-td">
-                        <span class="skills-text">C++:</span>
-                    </td>
-                    <td class="skills-td">
-                        <span class="skills-text">Unreal Engine:</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                    <td class="fa-star-size skills-td">
-                        <span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-                    </td>
-                </tr>
-            </table>
-
-
-        </div>
-
     </div>
 
+        <div id="contact">
 
+        <hr />
 
-
-        <div id="contact" class="bg-contact">
-
+        <div class="bg-contact">
 
             <h2 class="title">CONTACT</h2>
 
             <hr />
 
+    <div class="margin-left-right">
             <table class="contact-table">
                 <tr>
                     <td>
@@ -714,6 +750,7 @@
                 </tr>
             </table>
 
+        </div>
 
         </div>
 

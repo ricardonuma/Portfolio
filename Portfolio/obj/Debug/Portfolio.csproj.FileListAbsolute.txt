@@ -10,3 +10,8 @@ C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio
 C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio.dll
 C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Debug/Portfolio.pdb
 /Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Debug/Portfolio.csproj.CoreCompileInputs.cache
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Debug/Portfolio.csproj.AssemblyReference.cache
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/bin/Portfolio.dll
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/bin/Portfolio.pdb
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Debug/Portfolio.dll
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Debug/Portfolio.pdb

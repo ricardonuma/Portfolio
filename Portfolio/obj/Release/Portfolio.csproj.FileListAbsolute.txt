@@ -13,3 +13,4 @@ C:/Users/koki/Downloads/GitHub/Portfolio/Portfolio/Portfolio/obj/Release/Portfol
 /Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/bin/Portfolio.pdb
 /Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.dll
 /Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.pdb
+/Users/ricardonuma/Downloads/Github/Portfolio/Portfolio/obj/Release/Portfolio.csproj.AssemblyReference.cache

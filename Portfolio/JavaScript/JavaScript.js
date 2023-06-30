@@ -98,7 +98,7 @@ function Validate() {
 }
 
 function loadFunctions() {
-    getCurrentAge();
+    //getCurrentAge();
     getSoftwareDeveloperYears();
     getAndroidDeveloperYears();
     getCurrentYear();
