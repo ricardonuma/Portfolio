@@ -8,22 +8,22 @@ hr {
 }
 
 .bg-about {
-    height: 115vh;
+    height: 130%;
     margin: 0;
 }
 
 .bg-projects {
-    height: 260vh;
+    height: 290%;
     margin: 0;
 }
 
 .bg-skills {
-    height: 100vh;
+    height: 130%;
     margin: 0;
 }
 
 .bg-contact {
-    height: 78vh;
+    height: 75vh;
     margin: 0;
 }
 
